@@ -10,7 +10,8 @@ namespace DemoApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Wold!");
+            Calculator.Calculator Calc = new Calculator.Calculator();
+            Console.WriteLine(Calc.Add(1, 2));
         }
     }
 }
