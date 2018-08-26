@@ -17,5 +17,10 @@ namespace Calculator
         {
             return a * b;
         }
+
+        public int Subtr(int a, int b)
+        {
+            return a - b;
+        }
     }
 }
