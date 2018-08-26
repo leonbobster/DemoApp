@@ -23,7 +23,7 @@ namespace Calculator.Tests
         {
             Calculator calc = new Calculator();
             int sum = calc.Mult(2, 3);
-            Assert.That(sum, Is.EqualTo(2));
+            Assert.That(sum, Is.EqualTo(6));
         }
     }
 }
