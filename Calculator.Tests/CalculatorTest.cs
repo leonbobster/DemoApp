@@ -17,5 +17,13 @@ namespace Calculator.Tests
             int sum = calc.Add(2, 3);
             Assert.That(sum, Is.EqualTo(5));
         }
+
+        [Test]
+        public void ShouldMultNumbers()
+        {
+            Calculator calc = new Calculator();
+            int sum = calc.Mult(2, 3);
+            Assert.That(sum, Is.EqualTo(1));
+        }
     }
 }
